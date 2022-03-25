@@ -1,0 +1,112 @@
+#table {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#table .row>* {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#table .form-head{
+    margin-top: 120px;
+    padding-left: 55px !important;
+    padding-right: 55px !important;
+}
+
+#table .form-head h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+
+    color: #000000;
+    margin-top: 24px;
+}
+
+#table .form-content {
+    padding-left: 55px !important;
+    padding-right: 55px !important;
+}
+
+#table .form-content button {
+    width: 100%;
+    background: #0D28A6;
+    border-radius: 2px;
+    margin-top: 16px;
+}
+
+#table .form-content label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    color: #222222;
+}
+
+#table .form-content input{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* listCarRent */
+
+body #table{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+thead {
+    background: #CFD4ED;
+}
+
+#table .drop .form-select {
+    width: 62px;
+    height: 36px;
+    font-size: 10px;
+}
+
+#table .jtp .form-select {
+    width: 76px;
+    height: 36px;
+    font-size: 12px;
+}
+#table .paging nav{
+    display: flex;
+justify-content: flex-end;
+}
+
+#table a.page-link {
+    height: 38px;
+    width: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #8A8A8A;
+}
+#table .page-item.active .page-link{
+    background: #CFD4ED;
+    color: #0D28A6;
+    border-color: #0D28A6;
+}
+#table .form-select{
+    display: inline;
+}
+#table .btn{
+    display: inline;
+    background: #0D28A6;
+    color: #fff;
+    width: 43px;
+    height: 36px;
+}
